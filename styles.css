@@ -89,7 +89,7 @@ section img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #dbe6f2;
+    background-color: #d5d0ea;
 }
 .container-right h1{
     font-size: 50px;
@@ -100,14 +100,127 @@ section img {
 }
 .container-right p{
     width: 525px;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     color: #1e3932;
     margin-top: 0;
 }
+.container-right a{
+    border: 1px;
+    border-style: solid;
+    color: hsl(164 31% 17%);
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
 
+}
+.container-right a:hover{
+    background-color: hsl(164deg 31% 17% / 10%);
+}
+/*Section 2-->*/
+.section--two  img{
+    order: 1;
+}
+.section--two .container-right{
+    background-color: #fdd8f7;
+    }
+.section--two h1,
+.section--two p{
+color: #0f462f ;
+}
+.section--four img{
+    order: 1;
+}
+.section--four .container-right{
+    background-color: #dbe6f2 ;
+}
+.section--five .container-right{
+    background-color: #d8da6d;
+}
+.section--five h1{
+    font-size: 24px;
+}
+.section--five p{
+    font-size: 19px;
+}
+/* Section 6 */
+.section--six div {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    p{
+        font-size: 14px;
+        width: 551px;
+        font-weight: 500;
+        text-align: centar;
+        margin: 0 auto;
+        color: #00000;
+    }
+    a{
+        color: #080808;
+        &:hover{
+        text-decoration: none;
+        }
+    }
+}
+/* Footer */
+footer{
+    color: #c0c0c0
+}
+footer nav{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    align-items: flex-start;
+}
+footer h2{
+  font-size: 19px;
+  margin-bottom: 24px;  
+}
+footer a{
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: normal;
+    color:  #6a6a6a ;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0 auto;
+}
+footer li{
+    padding: 8px 0;
+}
+footer li a:hover{
+    color:#080808;
+}
+.orderAndPickUp {
+    grid-column: 5/8 ;
+}
+footer nav{
+    border-bottom: 2px solid #c0c0c0;
+}
+footer .social{
+    width: 80%;
+    margin: 0 auto;
 
-
+}
+footer .social  .si{
+    width: 20%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+footer .si svg,
+footer .privacy{
+    color: #000000;
+    text-decoration: none;
+}
+footer .privacy li a:hover{
+    text-decoration: underline;
+}
+.licence {
+    color: #6a6a6a;
+    font-size: 14px;
+}
 
 
 
